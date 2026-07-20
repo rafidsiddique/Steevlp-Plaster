@@ -1,0 +1,6 @@
+{
+  "name": "Steevlp Plastering",
+  "description": "A premium, highly interactive single-screen hero section for Steevlp, an elite plastering and surface finishing company.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
