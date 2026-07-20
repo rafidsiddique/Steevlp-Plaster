@@ -355,11 +355,11 @@ export default function App() {
   const calculatedMax = Math.round(calculatedTotal * 1.15);
 
   return (
-    <div className="min-h-screen bg-[#07080b] p-3 md:p-6 lg:p-8 flex flex-col items-center justify-start font-sans antialiased">
+    <div className="min-h-screen bg-[#0c0d12] flex flex-col font-sans antialiased">
       {/* Outer Browser/Showcase Container */}
       <div 
         id="showcase-container"
-        className="w-full max-w-7xl bg-[#0c0d12] rounded-[24px] md:rounded-[36px] overflow-hidden shadow-2xl relative border border-white/5 flex flex-col"
+        className="w-full min-h-screen bg-[#0c0d12] overflow-hidden shadow-2xl relative flex flex-col"
       >
         {/* HERO SECTION */}
         <div className="relative h-[92vh] min-h-[680px] flex flex-col justify-between overflow-hidden">
