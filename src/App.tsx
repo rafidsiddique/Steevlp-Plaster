@@ -30,6 +30,8 @@ import {
   ArrowUp
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+// @ts-ignore
+import heroBg from "./assets/images/plasterer_hero_background_1783260364915.jpg";
 
 // Types for interactive features
 type FinishOption = {
@@ -366,7 +368,7 @@ export default function App() {
           {/* Dynamic Background Layer */}
           <div className="absolute inset-0 z-0">
             <img 
-              src="/src/assets/images/plasterer_hero_background_1783260364915.jpg" 
+              src={heroBg} 
               alt="Elite Plastering Hero Background" 
               className="w-full h-full object-cover object-center transform scale-102 transition-transform duration-1000"
               referrerPolicy="no-referrer"
